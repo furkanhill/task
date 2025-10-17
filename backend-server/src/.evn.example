@@ -1,0 +1,20 @@
+# Database Configuration
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/taskdb
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=taskdb
+DB_USER=furkan
+DB_PASSWORD=password
+
+# JWT Configuration
+JWT_SECRET=super_secret_jwt_for_task
+JWT_REFRESH_SECRET=refresh_super_secret_jwt_for_task
+JWT_EXPIRES_IN=1h
+JWT_REFRESH_EXPIRES_IN=7d
+
+# Server Configuration
+PORT=3001
+NODE_ENV=development
+
+# CORS
+ALLOWED_ORIGINS=http://localhost:3000
